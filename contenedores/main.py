@@ -92,5 +92,3 @@ mi_tupla = (1, 2, 3, 4, "Anular", "Meñique", "pulgar", "corazón")
 
 # Usar un bucle para imprimir cada elemento
 for elemento in mi_tupla:
-    print(elemento)
-
