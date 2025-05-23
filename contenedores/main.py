@@ -1,5 +1,9 @@
+# Creación de tuplas
+
 # Tupla original
-mi_tupla = (1, 2, 3, 4, 5, "Anular", "Meñique", "pulgar", "corazón")
+mi_tupla = (1, 2, 3, 4, "Anular", "Meñique", "pulgar", "corazón")
+
+# Intentar modificar mi_tupla[8] = "dedo gordo" sale un error TypeError: 'tuple' object does not support item assignment
 
 # Convertir a lista para modificarla
 lista_dedos = list(mi_tupla)
@@ -11,6 +15,7 @@ mi_tupla_modificada = tuple(lista_dedos)
 # Mostrar la tupla modificada
 print("Tupla modificada:", mi_tupla_modificada)
 
+# Desempaquetado de tuplas
 # Crear la tupla de coordenadas
 coordenadas = (19.4326, -99.1332)  # Latitud y Longitud de Ciudad de México
 
@@ -21,8 +26,9 @@ latitud, longitud = coordenadas
 print("Latitud:", latitud)
 print("Longitud:", longitud)
 
+# Operaciones básicas con diccionarios
 # Crear el diccionario con tres pares clave-valor
-mi_diccionario = {"nombre": "Lucia", "edad": 31, "ciudad": "Medellín"}
+mi_diccionario = {"nombre": "Cristina", "edad": 31, "ciudad": "Medellín"}
 
 # Agregar una nueva clave-valor
 mi_diccionario["profesión"] = "Bacterióloga"
@@ -32,6 +38,7 @@ print("Claves del diccionario:")
 for clave in mi_diccionario.keys():
     print(clave)
 
+# Diccionarios Anidados
 # Crear el diccionario anidado
 contactos = {"persona1": {"nombre": "Santiago","edad": 31, "email": "Santiago@ehotmail.com"}, "persona2": {"nombre": "Juan","edad": 35, "email": "Juan@gmail.com"}}
 
@@ -40,6 +47,16 @@ print("Nombre de persona2:", contactos["persona2"]["nombre"])
 print("Edad de persona2:", contactos["persona2"]["edad"])
 print("Email de persona2:", contactos["persona2"]["email"])
 
+# Iteración y Actualización
+
+for clave, valor in mi_diccionario.items():
+    print(f"Clave: {clave} - Valor: {valor}")
+
+# Actualice el valor de una clave en mi_diccionario.
+mi_diccionario["edad"] = 50
+print(mi_diccionario)
+
+# Operaciones básicas
 # Crear la lista vacía
 mi_lista = []
 
@@ -56,6 +73,7 @@ mi_lista.remove(3)
 # Imprimir mi_lista después de eliminar el 3
 print("Lista después de eliminar el 3:", mi_lista)
 
+# Rebanado de listas
 # Crear la lista de números del 1 al 10
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -68,13 +86,11 @@ print("Elementos desde el tercero hasta el sexto:", numeros[2:6])
 # Imprimir los últimos dos elementos
 print("Últimos dos elementos:", numeros[-2:])
 
+# Listas y Ciclos
 # Tupla original
-mi_tupla = (1, 2, 3, 4, 5, "Anular", "Meñique", "pulgar", "corazón")
+mi_tupla = (1, 2, 3, 4, "Anular", "Meñique", "pulgar", "corazón")
 
-# Usar un bucle for para imprimir cada elemento
+# Usar un bucle para imprimir cada elemento
 for elemento in mi_tupla:
     print(elemento)
 
-
-  
-    
