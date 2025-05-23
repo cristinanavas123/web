@@ -10,13 +10,13 @@ print(saludo_completo)
 # Formato de Cadenas
 
 cadena_simple = " Grupo 21 "
-cadena_doble = " Te damos la bienvenida a este maravilloso grupo, aquí encontrarás un equipo colaborativo"
+cadena_doble = " Te damos la bienvenida a este maravilloso grupo, aquí encontrarás un equipo colaborativo "
 
 # Concatenación de cadenas
 
 bienvenida_completa = cadena_simple + " " + cadena_doble
 
-print (bienvenida_completa)
+print(bienvenida_completa)
 
 # Subcadenas y Métodos
 
@@ -27,7 +27,7 @@ print(lista_de_palabras)
 
 # Métodos de Mayúsculas y Minúsculas
 
-cadena = "bienvenidos a manizales"
+cadena = "Bienvenidos a Manizales"
 mayusculas = cadena.upper()
 minusculas = mayusculas.lower()
 
@@ -46,7 +46,7 @@ multiplicacion = a * b
 division = a / b
 exponente = a ** b
 
-print("Suma:", suma)
+print("suma:", suma)
 print("resta:", resta)
 print("multiplicacion", multiplicacion)
 print("division" , division)
@@ -65,17 +65,17 @@ print("residuo:" , residuo)
 
 # Precisión de Flotantes
 
-e = float(5)
+c = float(3.14)
 entero = 2
 
-suma = e + entero
-resta = e - entero
-multiplicacion = e * entero
-division = e / entero
+suma = c + entero
+resta = c - entero
+multiplicacion = c * entero
+division = c / entero
 
 print("Suma:", suma)
 print("resta:", resta)
 print("multiplicacion", multiplicacion)
 print("division" , division)
 
-# resultado
+# Cömo se manejan las operaciones mixtas En Python, cuando realizas operaciones mixtas entre enteros (int) y decimales (float), el resultado se convierte automáticamente en float para conservar la parte decimal. Este comportamiento se llama "promoción de tipos".
