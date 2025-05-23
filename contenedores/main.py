@@ -1,13 +1,14 @@
 # Creación de tuplas
 
 # Tupla original
-mi_tupla = (1, 2, 3, 4, "Anular", "Meñique", "pulgar", "corazón")
+mi_tupla = (1, 2, 3, 4, "Anular", "Meñique", "Pulgar", "Corazón")
+print("mi_tupla:", mi_tupla)
 
 # Intentar modificar mi_tupla[8] = "dedo gordo" sale un error TypeError: 'tuple' object does not support item assignment
 
 # Convertir a lista para modificarla
 lista_dedos = list(mi_tupla)
-lista_dedos[5] = "dedo gordo"  # Modificación
+lista_dedos[5] = "Dedo gordo"  # Modificación
 
 # Convertir de nuevo a tupla si se necesita
 mi_tupla_modificada = tuple(lista_dedos)
@@ -88,7 +89,8 @@ print("Últimos dos elementos:", numeros[-2:])
 
 # Listas y Ciclos
 # Tupla original
-mi_tupla = (1, 2, 3, 4, "Anular", "Meñique", "pulgar", "corazón")
+mi_tupla = (1, 2, 3, 4, "Anular", "Meñique", "Pulgar", "Corazón")
 
 # Usar un bucle para imprimir cada elemento
 for elemento in mi_tupla:
+    print(elemento)
