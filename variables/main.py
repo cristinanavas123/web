@@ -78,4 +78,3 @@ print("resta:", resta)
 print("multiplicacion", multiplicacion)
 print("division" , division)
 
-# Cömo se manejan las operaciones mixtas En Python, cuando realizas operaciones mixtas entre enteros (int) y decimales (float), el resultado se convierte automáticamente en float para conservar la parte decimal. Este comportamiento se llama "promoción de tipos".
